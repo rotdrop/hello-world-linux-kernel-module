@@ -5,12 +5,12 @@ Yet another one ...
 ## References
 
 - C-source code from [mak-/SimplestLKM](https://github.com/maK-/SimplestLKM.git)
-- Makefile from [hannesha/it87](https://github.com/hannesha/it87.git). The [Makefile](./Makefile) should be reusable by other kernel modules by simply exchanging
+- Makefile from [hannesha/it87](https://github.com/hannesha/it87.git). The [Makefile](./Makefile) should be reusable by other kernel modules by simply changing `hello` in
 
 ``` makefile
 DRIVER = hello
 ```
-by another name. The Makefile expects that the kernel module consists of a singloe source file without headers (i.e. the Makefile does not contain any target dependencies on header files).
+to another name. The Makefile expects that the kernel module consists of a singloe source file without headers (i.e. the Makefile does not contain any target dependencies on header files).
 
 ## Build
 
