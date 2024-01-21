@@ -19,7 +19,7 @@ to another name. The Makefile expects that the kernel module consists of a singl
 make clean all install
 ```
 Of course, you can invoke the targets separately. If you are not familiar with `make`, then the suggestion is that you make yourself familiar with it.
-- inorder to build for another kernel version:
+- in order to build for another kernel version:
 ``` shell
 make TARGET=X.Y.Z clean all install
 ```
