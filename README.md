@@ -26,7 +26,7 @@ make TARGET=X.Y.Z clean all install
 where `X.Y.Z` is the desired kernel version. For this to work it is necessary that `/lib/modules/X.Y.Z/` exists and contains the installed kernel modules and symlinks to the configured kernel source.
 
 ## Usage
-Use `insmod` as mentioned in [mak-/SimplestLKM](https://github.com/maK-/SimplestLKM.git/README.md), or after installing issue
+Use `insmod` as mentioned in [mak-/SimplestLKM](https://github.com/maK-/SimplestLKM.git/README.md), or after installing run
 ``` shell
 modprobe hello
 ```
